@@ -1,0 +1,54 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Reey-Regular';
+}
+
+
+@font-face {
+  font-family: 'Reey-Regular';
+  src: url('../fonts/Reey-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+
+h2 {
+  font-size: 200px; 
+  text-align: center;
+  color: rgb(233, 19, 151);
+} 
+p {
+  font-size: 50px;
+  text-align: center;
+  color: hsl(326, 100%, 49%);
+}
+
+
+.static {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.speech {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  height: auto;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
